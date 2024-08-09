@@ -18,4 +18,5 @@ pod UMShareWeChat
 -  UMCCommonLog
 -  WechatOpenSDK
 
+ 注意这里不需要pod 有盟中 'UMShare/Social/WeChat'
  如果需要QQ、微博等分享功能,直接正常按照有盟文档导入即可 
