@@ -10,7 +10,7 @@
 ```
 pod UMShareWeChat 
 ```
-将会自动依赖一下库 
+将会自动依赖以下库 
 - UMCommon
 -  UMDevice
 -  UMShare/UI
