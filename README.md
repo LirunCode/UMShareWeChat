@@ -10,7 +10,7 @@
 
 ##### 方式二 
 ```
-pod 'UMShare/Social/ReducedWeChat' #含微信精简版(有盟官方已经不更新)
+pod 'UMShare/Social/ReducedWeChat' #含微信精简版(友盟官方已经不更新)
 pod 'WechatOpenSDK' #微信完整版
 ```
 
@@ -25,7 +25,7 @@ pod 'WechatOpenSDK' #微信完整版
 ```
 pod UMShareWeChat 
 ```
-方式三只抽离了友盟中对于微信的封装文件,对后续友盟和微信更新并没影响。直接pod使用快捷方便,自动集成有盟微信分享(含支付功能)。
+方式三只抽离了友盟中对于微信的封装文件,对后续友盟和微信更新并没影响。直接pod使用快捷方便,自动集成友盟微信分享(含支付功能)。
 
 ```UMShareWeChat``` 将会自动依赖以下友盟基础库和微信sdk
 - UMCommon
@@ -35,5 +35,5 @@ pod UMShareWeChat
 -  UMCCommonLog
 -  WechatOpenSDK
 
- 注意这里不需要pod 有盟中 'UMShare/Social/WeChat'
+ 注意这里不需要pod 友盟中 'UMShare/Social/WeChat'
  如果需要QQ、微博等分享功能,直接正常按照友盟文档导入即可 
